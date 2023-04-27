@@ -1,6 +1,23 @@
-*{
-  margin:0;
+* {
+  margin: 0;
   padding: 0;
+}
+.topNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 5rem;
+}
+.ml2 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
 }
 .homeBackImage {
   background-image: url("../image/homepageBackground.jpg");
@@ -8,9 +25,12 @@
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  opacity:0.8;
+  opacity: 0.8;
   color: black !important;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 .navbar {
   background: rgba(0, 0, 0, 0) !important;
@@ -21,10 +41,19 @@
   display: flex;
   justify-content: center;
 }
+.nav-link {
+  font-size: 18px;
+  color: white !important;
+}
+.navActive {
+  border-bottom: 3px #000 solid !important;
+  padding-bottom: 5px !important;
+}
 .homePage {
   background-color: rgba(0, 0, 0, 0);
   font-size: 18px;
   color: white;
+  margin-bottom: 10rem;
 }
 .homeContentWord {
   display: flex;
@@ -32,11 +61,45 @@
   align-items: center;
   flex-direction: column;
 }
+.homeWordColor {
+  background-color: rgba(0, 0, 0, 0.295);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .homeConetentName {
-  font-size: 36px;
+  font-size: 48px;
   font-weight: bold;
 }
 .homeConetentWork {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: bold;
+}
+.myData {
+  margin-top: 3rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.myDataTitle {
+  font-size: 28px;
+  color: blue;
+}
+.myfaceBlock {
+  height: 300px;
+}
+.myDataContent {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgMyface {
+  height: 100%;
+}
+.myCardBody {
+  margin-left: 5rem;
 }
