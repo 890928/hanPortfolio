@@ -1,0 +1,42 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.homeBackImage {
+  background-image: url("../image/homepageBackground.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  opacity:0.8;
+  color: black !important;
+  height: 100vh;
+}
+.navbar {
+  background: rgba(0, 0, 0, 0) !important;
+}
+.navbar-brand {
+  font-size: 26px !important;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+.homePage {
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 18px;
+  color: white;
+}
+.homeContentWord {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.homeConetentName {
+  font-size: 36px;
+  font-weight: bold;
+}
+.homeConetentWork {
+  font-size: 24px;
+  font-weight: bold;
+}
