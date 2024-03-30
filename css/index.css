@@ -116,6 +116,15 @@
   font-size: 26px;
 }
 
+.myfaceBlock {
+  height: 738.5px;
+  width: 554px;
+  background-image: url("../image/hanfile.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
 /* 專業技能 */
 .mySkill {
   margin-top: 3rem !important;
@@ -154,7 +163,7 @@
 }
 
 /* 工作經歷 */
-.workBody{
+.workBody {
   width: 100%;
   display: flex;
 }
