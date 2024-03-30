@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 .topNav {
   position: fixed;
   top: 0;
@@ -10,6 +11,7 @@
   width: 100%;
   height: 5rem;
 }
+
 .ml2 {
   font-weight: 900;
   font-size: 3.5em;
@@ -19,48 +21,56 @@
   display: inline-block;
   line-height: 1em;
 }
+
 .homeBackImage {
   background-image: url("../image/homepageBackground.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  opacity: 0.8;
+  opacity: 1;
   color: black !important;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
+
 .navbar {
-  background: rgba(0, 0, 0, 0) !important;
+  background: rgba(0, 0, 0, 0.8) !important;
 }
+
 .navbar-brand {
   font-size: 26px !important;
   font-weight: bold;
   display: flex;
   justify-content: center;
 }
+
 .nav-link {
   font-size: 18px;
   color: white !important;
 }
+
 .navActive {
-  border-bottom: 3px #000 solid !important;
+  border-bottom: 3px white solid !important;
   padding-bottom: 5px !important;
 }
+
 .homePage {
   background-color: rgba(0, 0, 0, 0);
   font-size: 18px;
   color: white;
   margin-bottom: 10rem;
 }
+
 .homeContentWord {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+
 .homeWordColor {
   background-color: rgba(0, 0, 0, 0.295);
   width: 100vw;
@@ -69,37 +79,82 @@
   align-items: center;
   flex-direction: column;
 }
+
 .homeConetentName {
   font-size: 48px;
   font-weight: bold;
 }
+
 .homeConetentWork {
   font-size: 32px;
   font-weight: bold;
 }
+
+/* 關於我 */
 .myData {
-  margin-top: 3rem !important;
+  padding-top: 3rem !important;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+
+.myDataBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .myDataTitle {
-  font-size: 28px;
-  color: blue;
+  font-size: 32px;
+  font-weight: bold;
+  border-bottom: 3px solid green;
+  margin-bottom: 50px;
 }
-.myfaceBlock {
-  height: 300px;
-}
+
 .myDataContent {
-  font-size: 18px;
+  font-size: 26px;
+}
+
+/* 專業技能 */
+.mySkill {
+  margin-top: 3rem !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.mySkillTitle {
+  font-size: 32px;
+  font-weight: bold;
+  border-bottom: 3px solid green;
+}
+
+.mySkillTitleBlock {
+  margin-bottom: 2rem;
+}
+
+.mySkillChiTitle {
+  font-size: 30px;
+  font-weight: bold;
+  border-bottom: 3px solid black;
+}
+
+.mySkillChitTitleBlock {
+  width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
-.imgMyface {
-  height: 100%;
+
+.mySkillContent {
+  margin-top: 1rem;
 }
-.myCardBody {
-  margin-left: 5rem;
+
+.mySkillContent span {
+  font-size: 24px;
+}
+
+/* 工作經歷 */
+.workBody{
+  width: 100%;
+  display: flex;
 }
