@@ -42,19 +42,18 @@
 }
 
 .navbar-brand {
-  font-size: 26px !important;
+  font-size: 2rem !important;
   font-weight: bold;
   display: flex;
   justify-content: center;
 }
 
 .nav-link {
-  font-size: 18px;
+  font-size: 1.5rem;
   color: white !important;
 }
 
 .navActive {
-  border-bottom: 3px white solid !important;
   padding-bottom: 5px !important;
 }
 
@@ -82,12 +81,12 @@
 }
 
 .homeConetentName {
-  font-size: 48px;
+  font-size: 4rem;
   font-weight: bold;
 }
 
 .homeConetentWork {
-  font-size: 32px;
+  font-size: 3rem;
   font-weight: bold;
 }
 
@@ -100,6 +99,10 @@
   flex-direction: column;
 }
 
+.myDataRow{
+  width: 100%;
+}
+
 .myDataBlock {
   display: flex;
   flex-direction: column;
@@ -107,7 +110,7 @@
 }
 
 .myDataTitle {
-  font-size: 32px;
+  font-size: 3rem;
   font-weight: bold;
   border-bottom: 3px solid green;
   margin-bottom: 50px;
@@ -118,8 +121,8 @@
 }
 
 .myfaceBlock {
-  height: 738.5px;
-  width: 554px;
+  height: 45rem;
+  width: 30rem;
   background-image: url("../image/hanfile.jpg");
   background-repeat: no-repeat;
   background-size: contain;
@@ -134,7 +137,7 @@
 }
 
 .mySkillTitle {
-  font-size: 32px;
+  font-size: 3rem;
   font-weight: bold;
   border-bottom: 3px solid green;
 }
@@ -144,7 +147,7 @@
 }
 
 .mySkillChiTitle {
-  font-size: 30px;
+  font-size: 2.5rem;
   font-weight: bold;
   border-bottom: 3px solid black;
 }
@@ -160,13 +163,14 @@
 }
 
 .mySkillContent span {
-  font-size: 24px;
+  font-size: 2rem;
 }
 
 /* 工作經歷 */
 .workBody {
   width: 100%;
   display: flex;
+  padding: 1rem;
 }
 
 .spanRemrk{
