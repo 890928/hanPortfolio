@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
 }
 
 .topNav {
@@ -166,4 +167,11 @@
 .workBody {
   width: 100%;
   display: flex;
+}
+
+.spanRemrk{
+  padding: 0.5rem;
+  background-color: rgb(0, 136, 255);
+  color: white;
+  border-radius: 1rem
 }
