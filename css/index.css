@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+  font-family: "Helvetica", "Arial", "LiHei Pro", "黑體-繁", "微軟正黑體", sans-serif;
 }
 
 .topNav {
@@ -92,6 +92,7 @@
 
 /* 關於我 */
 .myData {
+  height: 100vh;
   padding-top: 3rem !important;
   display: flex;
   justify-content: center;
@@ -99,7 +100,7 @@
   flex-direction: column;
 }
 
-.myDataRow{
+.myDataRow {
   width: 100%;
 }
 
@@ -131,8 +132,10 @@
 
 /* 專業技能 */
 .mySkill {
+  height: 100vh;
   margin-top: 3rem !important;
   display: flex;
+  justify-content: center;
   flex-direction: column;
 }
 
@@ -167,15 +170,57 @@
 }
 
 /* 工作經歷 */
+#work {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .workBody {
   width: 100%;
   display: flex;
   padding: 1rem;
 }
 
-.spanRemrk{
+.spanRemrk {
   padding: 0.5rem;
   background-color: rgb(0, 136, 255);
   color: white;
   border-radius: 1rem
+}
+
+.fristWork {
+  margin-bottom: 2rem;
+}
+
+
+/* 作品連結 */
+#product {
+  height: 150vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cardBlock {
+  margin-bottom: 5rem;
+}
+
+.cardImg1 {
+  background-image: url("../image/chatApp.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 50vh;
+  width: 100%;
+}
+
+.cardImg2 {
+  background-image: url("../image/pose.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 50vh;
+  width: 100%;
 }
